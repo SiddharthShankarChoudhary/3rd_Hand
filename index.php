@@ -1,6 +1,8 @@
 <?php
 include("includes/header.php"); // To include header.php file
 
+$page_active = 'index';
+
 
 if (isset($_POST['post'])) { // Creates instance of Post class when post button is triggered
     $post = new Post($con, $userLoggedIn);
