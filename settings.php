@@ -137,12 +137,12 @@ $page_active = 'settings';
                                 </div>
 
                                 <div class="card">
-                                    <h5 class="card-header">Delete Account</h5>
+                                    <h5 class="card-header">Deactivate Account</h5>
                                     <div class="card-body">
                                         <div class="mb-3 col-12 mb-0">
                                             <div class="alert alert-warning">
-                                                <h6 class="alert-heading fw-bold mb-1">Are you sure you want to delete your account?</h6>
-                                                <p class="mb-0">Once you delete your account, there is no going back. Please be certain.</p>
+                                                <h6 class="alert-heading fw-bold mb-1">Are you sure you want to deactivate your account?</h6>
+                                                <p class="mb-0">Once you deactivate your account, you can reactivate by simply logging in ;).</p>
                                             </div>
                                         </div>
                                         <form id="formAccountDeactivation" action="settings.php" method="POST">
