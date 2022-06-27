@@ -48,6 +48,12 @@
     <div class="menu-inner-shadow"></div>
 
     <ul class="menu-inner py-1">
+        <li class="menu-item <?php if ($page_active == "feed") echo ' active'; ?>">
+            <a href="feed.php" class="menu-link">
+                <i class="menu-icon tf-icons bx bx-home"></i>
+                <div data-i18n="Analytics">Feed</div>
+            </a>
+        </li>
         <!-- Dashboard -->
         <li class="menu-item <?php if ($page_active == "index") echo ' active'; ?>">
             <a href="index.php" class="menu-link">
