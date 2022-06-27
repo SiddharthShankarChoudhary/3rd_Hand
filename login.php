@@ -144,7 +144,6 @@ require './includes/form_handlers/login_handler.php'; // To include login_handle
     <!-- / Content -->
 
 
-
     <!-- Core JS -->
     <!-- build:js assets/vendor/js/core.js -->
     <script src="./assets/vendor/libs/jquery/jquery.js"></script>
