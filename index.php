@@ -33,7 +33,7 @@ if (isset($_POST['post'])) { // Creates instance of Post class when post button 
             <!-- Menu -->
 
             <?php include 'menu.php' ?>
-            <?php include 'post.php' ?>
+            <?php include 'feed.php' ?>
 
             <!-- / Menu -->
 
